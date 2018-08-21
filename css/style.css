@@ -1,0 +1,14 @@
+
+
+/*Utility Classes*/
+
+.bg-black{
+    background-color:#000;
+}
+
+
+/*Bootstrap Overrides*/
+
+#bso-no-padding{
+    padding:0;
+}
