@@ -1,0 +1,187 @@
+#contact-module {
+	position: relative;
+    width: 960px;
+    margin-top:40px;
+    height: 98px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    z-index: 10;
+}
+
+#contact-module .contact-title {
+    margin: 0 10px 0px 15px;
+    padding-top: 15px;
+    font-size:15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height:18px;
+    letter-spacing: 1px;
+}
+#contact-module .contact-title p {margin:0 0 7px;}
+#contact-module .contact-us {
+    width: 100%;
+    position:relative;
+}
+
+#contact-module .contact-us .contact-form {
+    float: left;
+    margin:10px 0 0 15px;
+    width:545px;
+    position:relative;
+}
+#contact-module .contact-us .contact-form input.text {
+	width: 210px;
+    padding: 5px;
+}
+
+.search-error {position: relative; color: #da4f22;}
+.search-error ul {list-style-type: disc;}
+.searchresults .search-error {top: 40px;}
+
+#contact-module .search-error {position: absolute; top: -15px; left: 0;}
+
+#contact-module .contact-us .contact-form label.fLabel {
+	margin: 3px 0 0 3px;
+	padding: 3px 0 0 3px;
+	color: #999;
+	position: absolute;
+	top: 0px;
+	left: 205px;
+}
+
+#contact-module .contact-us .contact-form .search{
+	float: left;
+	display: inline-block;
+    background: #fdd974;
+    color: #45433f;
+    height: 28px;
+    width: 98px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-indent: -9999px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+#contact-module .contact-us .contact-form .search:hover {background: url("/static/images/search/contact_search_wd.png") 0 -28px no-repeat;}
+
+#contact-module .contact-us #zip-code {
+    float: left;
+    margin-right: 10px;
+    padding:14px;
+}
+
+#contact-module .contact-us .contact-links {
+    float: left;
+    height: 98px;
+    margin:-41px 0 0;
+}
+
+#contact-module .contact-us .contact-links .link-wrapper {
+    display:table-cell;
+    vertical-align:middle;
+    height: 96px;
+}
+.contact-links ul {margin: 15px 0 0 15px;padding:0;}
+.contact-links li {
+    list-style-type:none;
+    float: left;
+    width: 150px;
+    height: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding:42px 20px;
+    margin-top: -13px;
+    border-left: 1px solid #000;
+}
+.contact-links li a { color: #fcc938; font-weight: bold; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;}
+.contact-links li a:hover { text-decoration: underline;}
+.contact-links img {
+	position: relative;
+	top: -2px;
+    vertical-align:text-bottom;
+    padding:0 10px 0 0;
+}
+
+#contact-module .jquery-selectbox, .featured-videos .jquery-selectbox {
+    background: none repeat scroll 0 0 #bbbbac;
+    border: 1px solid #33312e;
+    border-radius: 3px;
+    color: #424242;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    margin: 0 9px 0 0;
+    padding: 6px 8px 3px;
+    position: relative;
+    width: 175px !important;
+    z-index: 5;
+}
+
+#contact-module .jquery-selectbox .jquery-selectbox-moreButton, .featured-videos .jquery-selectbox .jquery-selectbox-moreButton {
+    background: url("/static/images/channel/channel_dropdown_arrows.png") no-repeat scroll 0 0 ;
+    position:absolute;
+    right: 0;
+    top:0;
+    height: 26px;
+    width: 24px;
+    border-left:1px solid #33312e;
+    cursor: pointer;
+}
+#contact-module .jquery-selectbox.selecthover, .featured-videos .jquery-selectbox.selecthover{
+    background-color: #e5e5e5;
+   /*background-image: url("../img/bg-TextFieldFocused.gif"); */
+    z-index: 4;
+}
+#contact-module .jquery-selectbox .jquery-selectbox-moreButton.morebuttonhover, .featured-videos .jquery-selectbox .jquery-selectbox-moreButton.morebuttonhover{
+    background: url("/static/images/channel/channel_dropdown_arrows.png") no-repeat scroll 0 0 !Important;
+    z-index: 4;
+}
+#contact-module .jquery-selectbox .jquery-selectbox-currentItem, .featured-videos .jquery-selectbox .jquery-selectbox-currentItem{
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
+#contact-module .jquery-selectbox .jquery-selectbox-list, .featured-videos .jquery-selectbox .jquery-selectbox-list{
+    background: #f0f0f0;
+    display: none;
+    width:194px;
+    position: absolute;
+    top: 27px;
+    left:-1px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    border:1px solid #33312e;
+    border-top:none;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index:6;
+    color:#424242;
+}
+#contact-module .jquery-selectbox .jquery-selectbox-item, .featured-videos .jquery-selectbox .jquery-selectbox-item{
+    height:16px;
+    padding:4px 8px;
+    display: block;
+    cursor: default;
+}
+#contact-module .jquery-selectbox .jquery-selectbox-item.listelementhover, .featured-videos .jquery-selectbox .jquery-selectbox-item.listelementhover{
+    background: #fcc938;
+    width:100%;
+    height:16px;
+    padding:4px 8px;
+}
+
+#contact-module form input.text {
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 16px;
+    width: 150px;
+    border: 1px solid #33312e;
+    padding: 5px;
+    color:#48483c;
+}

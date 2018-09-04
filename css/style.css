@@ -1,11 +1,12 @@
-
-
 /*Utility Classes*/
 
 .bg-black{
     background-color:#000;
 }
 
+.bg-green{
+    background: #56574f !important;
+}
 
 /*Bootstrap Overrides*/
 
