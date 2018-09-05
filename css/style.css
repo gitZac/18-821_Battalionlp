@@ -5,8 +5,44 @@
 }
 
 .bg-green{
-    background: #56574f !important;
+    background: #313d33 !important;
 }
+
+/*
+CONTACT SECTION
+*/
+
+#section-contact{
+    padding-bottom:50px;
+}
+
+.title-bold{
+    font-weight: bold;
+}
+
+.stations-box{
+    background-color:#f3f3f3;
+    color:#000;
+    padding:20px;
+    border-radius: 1%;
+}
+
+.stations-address{
+    padding:10px 0;
+}
+
+.stations-address p{
+    margin-bottom: 0;
+}
+
+.map-container{
+    padding:10px;
+    background-color:#f3f3f3;
+}
+
+/*
+END CONTACT
+*/
 
 /*Bootstrap Overrides*/
 
