@@ -9,7 +9,7 @@
 }
 
 /*
-CONTACT SECTION
+MAP SECTION
 */
 
 #section-contact{
@@ -21,14 +21,17 @@ CONTACT SECTION
 }
 
 .stations-box{
+   padding-bottom:20px;
+}
+
+.stations-box__content{
     background-color:#f3f3f3;
     color:#000;
     padding:20px;
     border-radius: 1%;
-    margin-bottom:10px;
 }
 
-.stations-address{
+.stations-box__address{
     padding:10px 0;
 }
 
@@ -36,19 +39,23 @@ CONTACT SECTION
     margin-bottom: 0;
 }
 
-.map-container{
-    padding:25px;
-    background-color:#f3f3f3;
+.stations-box__links{
+    /*empty*/
 }
 
-.map-responsive{
+.mapdirections{
+    padding:25px;
+    background-color:#f3f3f3;  
+}
+
+.mapdirections__map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+    height:0;    
 }
 
-.map-responsive iframe{
+.mapdirections__map-responsive iframe{
     left:0;
     top:0;
     height:100%;
@@ -56,26 +63,30 @@ CONTACT SECTION
     position:absolute;   
 }
 
-.get-directions{
-    
+.mapdirections__content{
+    /*Empty*/
 }
 
-.get-directions__text p{
-    font-weight: bold;
+.mapdirections__text p{
+    font-weight: bold;    
 }
 
-.btn-brand{
-    color:#000;
-    background-color: #fdd974;
-    border-color: #fdd974;
+.mapdirections__form{
+    /*Empty*/
 }
 
 /*
-END CONTACT
+END MAP DIRECTIONS
 */
 
 /*Bootstrap Overrides*/
 
 #bso-no-padding{
     padding:0;
+}
+
+.btn-brand{
+    color:#000;
+    background-color: #fdd974;
+    border-color: #fdd974;
 }
