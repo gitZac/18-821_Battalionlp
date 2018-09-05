@@ -25,6 +25,7 @@ CONTACT SECTION
     color:#000;
     padding:20px;
     border-radius: 1%;
+    margin-bottom:10px;
 }
 
 .stations-address{
@@ -36,8 +37,37 @@ CONTACT SECTION
 }
 
 .map-container{
-    padding:10px;
+    padding:25px;
     background-color:#f3f3f3;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;   
+}
+
+.get-directions{
+    
+}
+
+.get-directions__text p{
+    font-weight: bold;
+}
+
+.btn-brand{
+    color:#000;
+    background-color: #fdd974;
+    border-color: #fdd974;
 }
 
 /*

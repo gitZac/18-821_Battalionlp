@@ -187,27 +187,53 @@
                 </div>
                 
                 <div class="map-container col-sm-12 col-md-8">
-                                                      
-                        <div class="map">
+                
+                    <div class="row">
+                       
+                        <div class="map-responsive col-sm-12 col-md-8">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12590.728927126902!2d-85.96475498022461!3d37.914489549999985!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1536084811539" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
 
-                        <div class="direction-text">
-                            wheres this text go
+                        <div class="get-directions col-sm-12 col-md-4">
+                            
+                            <div class="get-directions__text">
+                                <p>Get Directions To:</p>
+                                <p>ELIZABETHTOWN STATION</p>
+                                <p>From:</p>
+                            </div>
+                            
+                            <div class="get-directions__form">
+                                <form>
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Street Address">
+                                  </div>
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your City">
+                                  </div>
+                                    <div class="form-group">
+                                        <label for="inputState">Your State</label>
+                                        <select id="inputState" class="form-control">
+                                        <option selected>Choose...</option>
+                                        <option>...</option>
+                                        </select>
+                                    </div>
+                                  <button type="submit" class="btn btn-brand">Get Directions</button>
 
-                        </div>
-                                           
+                                </form>
+                            </div>
 
-                  
-                   
+                        </div> 
+                          
+                   </div> <!--end row-->
+
                     
-                </div>
+              </div><!--  End map container -->
 
-            </div>  
+         </div><!--   End row  -->
             
-       </div>
+     </div><!-- End container-->
 
-    </div>
+   </div><!-- End section-contact-->
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
